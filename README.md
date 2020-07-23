@@ -7,6 +7,17 @@ In this repo I have develop twitter bot using [tweepy](http://docs.tweepy.org/en
 # Disclaimer :skull_and_crossbones:
 I am not provideing twitter **API** keys. You have get twitter API keys on twitter developer account. Get [API Keys](https://developer.twitter.com/)
 
+Get API key and put in the below code section
+```python
+import tweepy
+import time
+
+API_key = ""
+API_secret_key = ""
+access_token = ""
+Access_token_secret = ""
+```
+
 ## Technology used in Project :hotsprings:
 <img target="_blank" src="https://github.com/yogeshnile/technology/blob/master/tweepy.webp" width="200">
 
