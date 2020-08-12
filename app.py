@@ -35,10 +35,10 @@ def reply():
         #mention.
         if '@yogeshnile' in mention.full_text.lower():
             print("Boss ko tag kiya hai")
-            api.update_status("@"+ mention.user.screen_name + " thank you for mention me and 'Yogesh Nile', @YogeshNile will replay soon.", in_reply_to_status_id = last_seen_id)
+            api.update_status("@"+ mention.user.screen_name + " Many thanks @"+ mention.user.screen_name + " for mentioning me and my creator, but i'm unable to respond your tweet. You can contact my creator @YogeshNile, they will definetly reply on your tweets. Have a good day. 💐", in_reply_to_status_id = last_seen_id)
         else:
             print("Boss tag nahi kiya")
-            api.update_status("@"+ mention.user.screen_name + " Thank you for mention me, @YogeshNile will reply soon", in_reply_to_status_id = last_seen_id)
+            api.update_status("@"+ mention.user.screen_name + " Many thanks @"+ mention.user.screen_name + " for mentioning me, but i'm unable to respond your tweet. You can contact my creator @YogeshNile, they will definetly reply on your tweets. Have a good day. 💐", in_reply_to_status_id = last_seen_id)
         #mention.id.favorites()
 
 def searchbot(hashtag):
